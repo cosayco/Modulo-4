@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/scripts.js"></script>
+</head>
+<body>
+    <h2 class="titulo">Contáctanos</h2>
+    <form>
+        <div class="container">
+            <div>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <label for="apellido">Apellido:</label><br>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div>
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="motivo">Por favor especifique el motivo:</label><br>
+                <select id="motivo" name="motivo">
+                    <option value="">--Seleccione--</option>
+                    <option value="problemas">Problemas con su Cuenta Online.</option>
+                    <option value="restablecer">Restablecer Contraseña.</option>
+                    <option value="solicitud">Solicitud de Atencion al Cliente.</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+            <div>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" class="textomensaje" required></textarea>
+            </div>
+        </div>
+        <div class="envio">
+            <button type="submit" id="submit" onclick="alerta()">ENVIAR MENSAJE</button>
+        </div>
+    </form>
+</body>
+</html>
