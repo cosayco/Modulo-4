@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio Comprobacion Sesion 1</title>
-
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Calculadora de Préstamos</title>
 </head>
 <body>
-    
-    <script src="assets/js/scripts.js"></script>
+    <h1>EASYPAGO</h1>
+    <div class="container">
+        <div>
+            <div>
+                <label for="monto">¿Cuanto tienes que pagar?</label><br>
+                <input type="number" id="monto" placeholder="Ingrese el monto" required>
+            </div>
+            <div>
+                <label for="interes">¿Cuanto interés(%) debes pagar?</label><br>
+                <input type="number" id="interes" placeholder="Ingrese porcentaje" required>
+            </div>
+            <div>
+                <label for="plazo">¿En cuántas cuotas puedes pagarlo?</label><br>
+                <input type="number" id="plazo" placeholder="Ingrese el plazo" required>
+            </div>
+        </div>
+    </div>  
+    <br>
+    <div>
+        <button onclick="calcular()">Calcular</button>
+    </div>
+    <div id="resultado"></div>
+
+  <script src="assets/js/scripts.js"></script>
 </body>
 </html>
