@@ -1,0 +1,83 @@
+.tab {
+    overflow: hidden;
+    background-color: rgb(24, 24, 24);
+  }
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: whitesmoke;
+  }
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  .tab button.active {
+    background-color: #ccc;
+    border-bottom: 5px solid green;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.login-container {
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.input-group {
+    margin-bottom: 1em;
+    padding-left: 10px;
+    width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    padding-left: 10px;
+  }
+  .terms input {
+    accent-color: black;
+    margin-right: 0.5em;
+}
+
+.container{
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.btn-vip{
+    background-color: yellow;
+    color: black;
+    width: 150px;
+}
+
+.btn-normal{
+  background-color: blue;
+  color: whitesmoke;
+  width: 150px;
+}
+
+body{
+    background-color: rgb(24, 24, 24);
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

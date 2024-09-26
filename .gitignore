@@ -1,0 +1,5 @@
+#all zip files
+*.zip
+
+#all log files
+*.log
