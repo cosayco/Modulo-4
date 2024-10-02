@@ -1,0 +1,10 @@
+.timer {
+    background-color: black;
+    color: white;
+    font-size: 16em;
+    margin-top: 20px;
+}
+
+.segundos{
+    width: 150px;
+}
